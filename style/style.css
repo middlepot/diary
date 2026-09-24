@@ -128,7 +128,7 @@ h1 {
 }
 
 #randomImage:hover{
-    cursor:pointer;
+    cursor: url(../images/cursorh.png), progress;
 }
 
 #layout{
