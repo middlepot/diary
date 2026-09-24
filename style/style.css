@@ -1,0 +1,247 @@
+body {
+        cursor: url(../images/cursor.png), progress;
+
+        a:hover {
+            cursor: url(../images/cursorh.png), progress;
+        }
+
+        ::selection {
+            text-shadow: 0 0 2px #cec1bb;
+            color: #cec1bb
+        }
+
+        ::-moz-selection {
+            text-shadow: 0 0 2px #cec1bb;
+            color: #cec1bb
+        }
+        background-image: url('../images/bg.png');
+        background-repeat: repeat;
+        background-color: #f2efed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.9rem;
+        font-family: 'Lora', serif;
+        line-height: 1.4;
+        letter-spacing: 0.6px;
+        text-align: left;
+        color: #9e8d8d;
+        scrollbar-color: #e2d5d0 transparent;
+}
+
+    i {
+        text-decoration: none;
+        color: #C0ADA9;
+        text-shadow: 0 0 2px #cec1bb;
+    }
+
+    a {  
+text-decoration: none;
+color: #C0ADA9;
+text-shadow: 0 0 2px #DCCCC9;
+transition: 1s;
+	}
+
+	a:hover { 
+color: #DCCCC9;
+text-shadow: 0 0 2px #e8e1e1;
+filter: blur(1px);
+transition: 1s;
+	}  
+    
+.wavy {
+    text-weight: normal;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #d9d2d2;
+    text-underline-offset: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #e2d5d0;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #e2d5d0;
+}
+
+p {
+  line-height: 1.6em;
+}
+
+hr {
+  border: solid #c7b591;
+  border-width: 2px 0 0 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.right {
+  float: right;
+  margin-left: 1em;
+}
+.left {
+  float: left;
+  margin-right: 1em;
+}
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+@media only screen and (min-width: 600px) {
+  .small {
+    max-width: 60%;
+    height: auto;
+  }
+}
+.caption {
+  margin-top: 0;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Lora, serif;  
+  font-style: italic;
+  color: #DCCCC9;
+  text-shadow: 1px 1px 0 #c2b1ae;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+#randomImage:hover{
+    cursor:pointer;
+}
+
+#layout{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left:-10%;
+    margin-bottom:10%;
+}
+
+#art {
+  width: 40%;
+	height: 400px;
+  margin-top:35%;
+  display: flex;
+  align-items: flex-end;
+}
+
+
+#container {
+  width: 40%;
+	height: 500px;
+  margin-top:20%;
+    border: 40px solid transparent;
+    border-image-source: url('../images/diary.png');
+    border-image-slice: 18% fill;
+    border-image-repeat: round;
+    background-clip: padding-box;
+    background-color: transparent;
+    font-size: 0.9rem;
+    font-family: Lora, serif;  
+    line-height: 1.4em; 
+    letter-spacing: 0.5px;
+    text-align: left;  
+    color: #9e8d8d;  
+    overflow-y: auto;
+    scrollbar-color: #e2d5d0 transparent;
+}
+
+#content {
+  margin-top:-20px;
+}
+
+#end {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.fragment {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#link {
+  text-align: right;
+  color: #DCCCC9;
+  text-shadow: 0 0 2px #c2b1ae;
+}
+
+#home-menu{
+  text-align: left;
+  width:60%;
+  margin-top:10%;
+}
+
+#postlistdiv ul {
+  font-size: 1.2em;
+  padding: 0;
+  list-style-type: none;
+  line-height: 1.5em;
+}
+#recentpostlistdiv ul {
+  font-size: 1.2em;
+  padding: 0;
+  list-style-type: none;
+  line-height: 1.5em;
+}
+.moreposts {
+  font-size: 0.8em;
+  margin-top: 0.2em;
+}
+
+#nextprev {
+  text-align: center;
+  margin-top: 15px;
+}
+
+#disqus_thread {
+  margin-top: 1.6em;
+}
+
+@media (max-width: 768px) {
+  #layout{
+  margin-top:15vh;
+  margin-bottom:10vh;
+}
+#art {
+  width: 80%;
+	height: 350px;
+  margin-top:0;
+}
+#container {
+  margin-left:5vh;
+  width: 80%;
+	height: 350px;
+  margin-top:0;
+}
+h1 {
+  font-size: 1.5rem;
+}
+}
