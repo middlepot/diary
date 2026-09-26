@@ -14,7 +14,9 @@
       "../art/13.png",
       "../art/14.png",
       "../art/15.png",
-      "../art/16.png"
+      "../art/16.png",
+      "../art/17.png",
+      "../art/18.png"
     ];
 
     function displayRandomImage() {
