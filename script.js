@@ -1,6 +1,6 @@
 
 let postsArray = [
-[ "posts/2026-09-25-thought-no.-7.html" ],
+[ "posts/2026-09-26-thought-no.-7.html" ],
 [ "posts/2026-09-25-thought-no.-6.html" ],
 [ "posts/2026-09-24-thought-no.-5.html" ],
 [ "posts/2026-09-23-thought-no.-4.html" ],
