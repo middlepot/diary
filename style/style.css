@@ -188,10 +188,23 @@ h1 {
   text-align: center;
 }
 
+
+.meow {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 #link {
   text-align: right;
   color: #DCCCC9;
   text-shadow: 0 0 2px #c2b1ae;
+}
+
+#link2 {
+  text-align: right;
+  color: #DCCCC9;
+  text-shadow: 0 0 1px #c2b1ae;
 }
 
 #home-menu{
